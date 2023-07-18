@@ -3122,10 +3122,11 @@ header.major>.date:after {
 
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 767px) {
 
     header.major {
         margin: 0 0 2rem 0;
+        padding-right: 0;
     }
 
 }
@@ -3617,15 +3618,15 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 767px) {
 
     #intro {
-        padding: 3rem 2rem 1rem 2rem;
+        padding: 1rem;
         min-height: 80vh;
     }
 
     #intro h1 {
-        font-size: 3.25rem;
+        font-size: 2rem;
         line-height: 1.1;
         margin-bottom: 1rem;
     }
@@ -3633,10 +3634,15 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     #intro p {
         font-size: 1rem;
         margin-top: 0rem;
+        width: 100%;
     }
 
     #intro .actions {
         display: none;
+    }
+
+    .hero-sec {
+        flex-direction: column;
     }
 
 }
